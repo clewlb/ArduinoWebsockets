@@ -119,13 +119,13 @@ namespace websockets {
             handshake += "Sec-WebSocket-Version: 13\r\n";
         }
 
-        if (shouldAddDefaultHeader("User-Agent", customHeaders)) {
-            handshake += "User-Agent: TinyWebsockets Client\r\n";
-        }
+        // if (shouldAddDefaultHeader("User-Agent", customHeaders)) {
+        //     handshake += "User-Agent: TinyWebsockets Client\r\n";
+        // }
 
-        if (shouldAddDefaultHeader("Origin", customHeaders)) {
-            handshake += "Origin: https://github.com/gilmaimon/TinyWebsockets\r\n";
-        }
+        // if (shouldAddDefaultHeader("Origin", customHeaders)) {
+        //     handshake += "Origin: https://github.com/gilmaimon/TinyWebsockets\r\n";
+        // }
 
         handshake += "\r\n";
 
